@@ -112,7 +112,7 @@ body.dark .dark-mode-toggle {
     color: #E2E8F0;
 }
 
-/* Hero Section – تصليح التنسيق والصورة */
+/* Hero Section */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -265,7 +265,7 @@ body.dark .section-subtitle {
     color: #94A3B8;
 }
 
-/* Skills Grid – رجوع الكروت جنب بعض */
+/* Skills Grid */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -331,7 +331,7 @@ body.dark .experience-card {
     border-color: #334155;
 }
 
-/* Projects Grid – جنب بعض تاني */
+/* Projects Grid */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
@@ -375,21 +375,20 @@ body.dark .project-info h3 {
     color: #FFFFFF;
 }
 
-/* Contact Section – تنظيم كامل ومحاذاة مثالية */
+/* Contact Section  */
 .contact-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 100px;
     max-width: 1200px;
     margin: 0 auto;
-    align-items: start; /* ده اللي هيخلي الاتنين يبدأوا من فوق مع بعض */
+    align-items: start; 
 }
-
 .contact-info {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-top: 20px; /* رفع خفيف عشان يتساوى مع عنوان الفورم */
+    padding-top: 20px;
 }
 
 .contact-info .info-item {
@@ -418,14 +417,13 @@ body.dark .contact-info p {
     color: #E2E8F0;
 }
 
-/* الفورم بوكس */
 .contact-form {
     background: #FFFFFF;
     padding: 48px;
     border-radius: 20px;
     border: 1px solid #E5E7EB;
     box-shadow: 0 10px 40px rgba(15, 23, 42, 0.08);
-    height: fit-content; /* عشان ما يتمددش زيادة */
+    height: fit-content; 
 }
 
 body.dark .contact-form {
@@ -446,7 +444,6 @@ body.dark .contact-form h3 {
     color: #FFFFFF;
 }
 
-/* باقي الفورم زي اللي قبل (الحقول والزر) */
 .form-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -506,6 +503,7 @@ body.dark .contact-form textarea {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(56, 189, 248, 0.4);
 }
+
 /* Responsive */
 @media (max-width: 1024px) {
     .hero {
